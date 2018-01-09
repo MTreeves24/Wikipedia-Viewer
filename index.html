@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WikipediaViewer</title>
+    <link rel="stylesheet" type="text/css" href="wiki.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="title">
+        <img class="logo" src="wikipedia-logo-inverse.png"></img>
+        <img class="logo-name" src="wikipedia.png"></img>
+    </div>
+    <div class="search">
+    <input class="search-box" type="text" name="search-request" placeholder="Enter search query here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter search query here'"></input>
+    <button class="search-button">Search</button>
+</div> <!-- search -->
+    <button class="random">Click here for a random article</button>
+</div>
+
+<div class="search-results"></div>
+
+
+
+    <script type="text/javascript" src="wiki.js"></script>
+</body>
+</html>
